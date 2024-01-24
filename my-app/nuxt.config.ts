@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   googleFonts: {
     families: {
-      Roboto: true
+      Roboto: true,
+      Inter: true,
+      Heebo: true
     },
     preload: true,
   },
