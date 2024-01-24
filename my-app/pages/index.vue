@@ -4,18 +4,24 @@
             font-family: 'Heebo', sans-serif;
         }
     </Style>
-    <div class="h-screen bg-stone-100 relative">
+    <head>
+      <title>Favour Oshiokhale | Data Engineer</title>
+    </head>
+    <div class="h-screen max-h-screen bg-stone-100 relative">
         <div class="z-[-1]">
             <NuxtParticles
             id="tsparticles"
             :options="options"
             ></NuxtParticles>
         </div>
-        <section class="flex h-screen items-end">
-          <div class="pl-10 pb-4 relative z-[1]">
-            <h1 class="text-red-500 text-9xl font-[900]">Favour Oshiokhale</h1>
-            <p class="text-5xl text-orange-500 font-[800] ">Data Engineer based in Houston, TX</p>
-          </div>
+        <section class="flex flex-col h-lvh justify-between">
+          <header class="flex flex-row px-10 mt-4 relative z-[1]">
+            <h1 class="font-[800] text-2xl text-green-500">Currently: Open to work (Data Analyst, Data Engineer, Analytics Engineer)</h1>
+          </header>
+          <footer class="pl-10 pb-4 relative z-[1]">
+            <h1 class="text-red-500 text-7xl font-[900]">Favour Oshiokhale</h1>
+            <p class="text-3xl text-orange-500 font-[800] ">Data Engineer based in Houston, TX</p>
+          </footer>
         </section>
 
     </div>
@@ -37,21 +43,16 @@ const options = {
       enable: true
     },
     number: {
-      value: 100
+      value: 95
     },
     size: {
         value: 10,
         random: true
     },
     shape: {
-        type: ['circle', 'square', 'star', 'triangle', 'image']
+        type: ['circle', 'square', 'star', 'triangle']
     }
   }
 }
 
-const onLoad = (container: Container) => {
-  // Do something with the container
-
-
-}
 </script>
