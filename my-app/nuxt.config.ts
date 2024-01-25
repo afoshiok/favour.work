@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     families: {
       Roboto: true,
       Inter: true,
-      Heebo: true
     },
     preload: true,
   },
