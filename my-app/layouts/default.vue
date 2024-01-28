@@ -14,13 +14,14 @@
             :options="options"
             ></NuxtParticles>
         </div>
+        <div class="h-screen backdrop-blur-md bg-white/30 relative z-[1]">
         <main class="flex flex-col h-lvh max-w-[1920px] mx-auto justify-between">
           <header class="flex flex-row justify-between px-8 mt-4 relative z-[1]">
-            <h1 class="font-[800] text-2xl text-green-500">Currently: Open to work (Data Analyst, Data Engineer, Analytics Engineer)</h1>
+            <h1 class="font-[800] text-2xl text-zinc-950">Currently: Open to work (Data Analyst, Data Engineer, Analytics Engineer)</h1>
             <nav class="grid grid-cols-3 gap-4">
-              <NuxtLink to="/about" class="text-purple-500 font-[800] text-2xl cursor-pointer">About</NuxtLink>
-              <NuxtLink to="/projects" class="text-purple-500 font-[800] text-2xl cursor-pointer">Projects</NuxtLink>
-              <a class="text-purple-500 font-[800] text-2xl">Tool Box</a>
+              <NuxtLink to="/about" class="text-zinc-950 font-[800] text-2xl cursor-pointer">About</NuxtLink>
+              <NuxtLink to="/projects" class="text-zinc-950 font-[800] text-2xl cursor-pointer">Projects</NuxtLink>
+              <a class="text-zinc-950 font-[800] text-2xl">Tool Box</a>
             </nav>
           </header>
 
@@ -29,11 +30,11 @@
           </section>
 
           <footer class="pl-10 pb-4 relative z-[1]">
-            <h1 class="text-red-500 text-7xl font-[900]">Favour Oshiokhale</h1>
-            <p class="text-3xl text-orange-500 font-[800] ">Data Engineer based in Houston, TX</p>
+            <h1 class="text-zinc-950 text-7xl font-[900]">Favour Oshiokhale</h1>
+            <p class="text-3xl text-zinc-950 font-[800] ">Data Engineer based in Houston, TX</p>
           </footer>
         </main>
-
+        </div>
     </div>
 </template>
 
@@ -42,7 +43,7 @@
 const options = {
     fullscreen: {
         enable: true,
-        zIndex: -1
+        zIndex: 0
     },
     particles: {
     color: {
@@ -52,14 +53,14 @@ const options = {
       enable: true
     },
     number: {
-      value: 90
+      value: 10
     },
     size: {
-        value: 10.5,
+        value: 1000,
         random: true
     },
     shape: {
-        type: ['circle', 'square', 'star', 'triangle']
+        type: ['circle']
     }
   }
 }
