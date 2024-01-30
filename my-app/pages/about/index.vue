@@ -8,7 +8,7 @@
                 <h1 class="font-black">Education <span class="text-2xl">🧑🏾‍🎓</span></h1>
                 <p class="font-medium">I graduated from the <a class="font-bold text-red-600">University of Houston</a> in May 2023 with a <a class="font-bold text-orange-600">B.S. in Computer Information Systems</a>.</p>
               </div>
-              <div>
+              <div class="pl-4">
                 <h1 class="font-black">Certifications / Accreditations <span class="text-2xl">📜</span></h1>
                 <ul class="list-disc list-inside pl-4">
                   <li>Tableau Desktop Specialist (Apr. 2022)</li>
@@ -24,9 +24,19 @@
                 </div>
                 <p class="">Data Engineering Intern</p>
                 <ul class="list-disc list-inside pl-4 text-center">
-                  <li class="text-left">Created an <span class="font-bold">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
-                  <li class="text-left">Utilized <span class="font-bold">AWS Sagemaker</span> to train machine learning models.</li>
-                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold">Snowflake</span> and creating a dataset using <span class="font-bold">Pandas</span>.</li>
+                  <li class="text-left">Created an <span class="font-bold text-green-500">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
+                  <li class="text-left">Utilized <span class="font-bold text-orange-500">AWS Sagemaker</span> to train machine learning models.</li>
+                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold text-sky-600">Snowflake</span> and creating a dataset using <span class="font-bold text-red-600">Pandas</span>.</li>
+                </ul>
+              </div>
+              <div class="pl-4">
+                <h1 class="font-black">Currently working on... <span class="text-2xl">👷🏾‍♂️</span></h1>
+                <div class="flex justify-between">
+                  <h2 class="font-semibold">FEC Data Engineering Project</h2>
+                  <a href="https://github.com/afoshiok/Election_DE" target="_blank">Github</a>
+                </div>
+                <ul class="list-disc list-inside pl-4 text-center">
+                  <li class="text-left">End-to-end Data Engineering project using data from the FEC API. </li>
                 </ul>
               </div>
             </div>

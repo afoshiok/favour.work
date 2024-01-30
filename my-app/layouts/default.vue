@@ -56,7 +56,7 @@ const options = {
       value: 10
     },
     size: {
-        value: 750,
+        value: 650,
         random: true
     },
     shape: {
