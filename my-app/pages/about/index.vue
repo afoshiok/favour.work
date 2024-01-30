@@ -5,11 +5,11 @@
             <!-- Non-"About Me" Section -->
             <div class="grid grid-cols-2 grid-rows-2 gap-4 w-3/4 mt-4">
               <div>
-                <h1 class="font-black">Education 🧑🏾‍🎓</h1>
+                <h1 class="font-black">Education <span class="text-2xl">🧑🏾‍🎓</span></h1>
                 <p class="font-medium">I graduated from the <a class="font-bold text-red-600">University of Houston</a> in May 2023 with a <a class="font-bold text-orange-600">B.S. in Computer Information Systems</a>.</p>
               </div>
               <div>
-                <h1 class="font-black">Certifications / Accreditations 📜</h1>
+                <h1 class="font-black">Certifications / Accreditations <span class="text-2xl">📜</span></h1>
                 <ul class="list-disc list-inside pl-4">
                   <li>Tableau Desktop Specialist (Apr. 2022)</li>
                   <li>Databricks Lakehouse Fundamentals (Jul. 2023)</li>
@@ -17,16 +17,16 @@
                 </ul>
               </div>
               <div>
-                <h1 class="font-black">Experience</h1>
+                <h1 class="font-black">Experience <span class="text-2xl">👨🏾‍💻</span></h1>
                 <div class="flex justify-between">
                   <h2 class="font-semibold">Slalom Build</h2>
                   <p>Jun. 2022 - Aug. 2022</p>
                 </div>
-                <p class="text-sm">Data Engineering Intern</p>
-                <ul class="list-disc list-inside pl-4">
-                  <li>Task #1</li>
-                  <li>Task #2</li>
-                  <li>Task #3</li>
+                <p class="">Data Engineering Intern</p>
+                <ul class="list-disc list-inside pl-4 text-center">
+                  <li class="text-left">Created ETL pipeline using Singer to extract Slack data for a employee ML model.</li>
+                  <li class="text-left">Utilized <span class="font-bold">AWS Sagemaker</span> to train machine learning models.</li>
+                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold">Snowflake</span> and creating a dataset using <span class="font-bold">Pandas</span>.</li>
                 </ul>
               </div>
             </div>
@@ -51,5 +51,8 @@ watch(currentIndex, (newValue, oldValue) => {
 })
 
 defineExpose({ currentIndex, current_job })
+
+// const url = useRequestURL()
+// console.log(url.pathname)
 
 </script>
