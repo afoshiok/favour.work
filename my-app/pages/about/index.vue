@@ -1,5 +1,5 @@
 <template>
-    <section class="h-full overflow overflow-y px-8 mt-4">
+    <section class="h-full px-8 mt-4">
         <div class="flex flex-col h-full items-center justify-center">
             <p class="font-black text-lg mx-auto">I'm a <a class="text-purple-700 cursor-pointer" @click="cycleIndex">{{ current_job }}</a> who loves making cool things with data. When I'm not building pipelines and writing SQL queries, I'm watching lots of movies and discovering new songs.</p>
             <!-- Non-"About Me" Section -->
@@ -24,9 +24,9 @@
                 </div>
                 <p class="">Data Engineering Intern</p>
                 <ul class="list-disc list-inside pl-4 text-center">
-                  <li class="text-left">Created an <span class="font-bold text-green-500">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
-                  <li class="text-left">Utilized <span class="font-bold text-orange-500">AWS Sagemaker</span> to train machine learning models.</li>
-                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold text-sky-600">Snowflake</span> and creating a dataset using <span class="font-bold text-red-600">Pandas</span>.</li>
+                  <li class="text-left">Created an <span class="font-bold">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
+                  <li class="text-left">Utilized <span class="font-bold">AWS Sagemaker</span> to train machine learning models.</li>
+                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold">Snowflake</span> and creating a dataset using <span class="font-bold">Pandas</span>.</li>
                 </ul>
               </div>
               <div class="pl-4">

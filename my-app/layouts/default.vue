@@ -8,13 +8,13 @@
       <title>Favour Oshiokhale | Data Engineer</title>
     </head>
     <div class="h-screen max-h-screen bg-stone-100 relative overflow overflow-y-auto">
-        <div class="z-[-1]">
+        <!-- <div class="z-[-1]">
             <NuxtParticles
             id="tsparticles"
             :options="options"
             ></NuxtParticles>
-        </div>
-        <div class="h-screen backdrop-blur-md bg-white/30 relative z-[1]">
+        </div> -->
+        <div class="h-screen relative z-[1]">
         <main class="flex flex-col h-lvh max-w-[1920px] mx-auto justify-between">
           <header class="flex flex-row justify-between px-8 mt-4 relative z-[1]">
             <h1 class="font-[800] text-2xl text-zinc-950">Currently: Open to work (Data Analyst, Data Engineer, Analytics Engineer)</h1>
@@ -25,7 +25,7 @@
             </nav>
           </header>
 
-          <section class="grow">
+          <section class="grow overflow overflow-y">
               <slot />
           </section>
 
@@ -40,6 +40,17 @@
 
 <script setup lang="ts">
 
+import { onMounted, ref } from 'vue'
+
+let width = ref()
+
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    width.value = window.innerWidth
+    console.log(width.value)
+  }
+})
+
 const options = {
     fullscreen: {
         enable: true,
@@ -50,17 +61,18 @@ const options = {
       value: ["#ef4444", "#f97316", "#22c55e", "#3b82f6", "#6366f1", "#8b5cf6"]
     },
     move: {
-      enable: true
+      enable: true,
+      direction: "none"
     },
     number: {
-      value: 10
+      value: 15
     },
     size: {
-        value: 650,
+        value: { min: 10, max: 25 },
         random: true
     },
     shape: {
-        type: ['circle']
+        type: ['circle', 'star', 'triangle', 'square']
     }
   }
 }
