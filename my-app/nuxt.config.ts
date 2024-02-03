@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    'nuxt-particles'
+    '@vueuse/motion/nuxt'
   ]
 })
 
