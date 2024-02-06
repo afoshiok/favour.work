@@ -39,9 +39,9 @@
                 </div>
                 <p class="">Data Engineering Intern</p>
                 <ul class="list-disc list-inside pl-4 text-center">
-                  <li class="text-left">Created an <span class="font-bold">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
-                  <li class="text-left">Utilized <span class="font-bold">AWS Sagemaker</span> to train machine learning models.</li>
-                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold">Snowflake</span> and creating a dataset using <span class="font-bold">Pandas</span>.</li>
+                  <li class="text-left">Created an <span class="font-bold text-orange-500">ETL pipeline</span> using Singer to extract Slack data for a employee ML model.</li>
+                  <li class="text-left">Utilized <span class="font-bold text-purple-500">AWS Sagemaker</span> to train machine learning models.</li>
+                  <li class="text-left">Performed exploratory data analysis by utilizing data from <span class="font-bold text-blue-500">Snowflake</span> and creating a dataset using <span class="font-bold text-red-500">Pandas</span>.</li>
                 </ul>
               </div>
               <div
