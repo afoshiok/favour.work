@@ -15,7 +15,7 @@
               <nav class="grid grid-cols-3 gap-4">
                 <NuxtLink to="/about" class="text-zinc-950 font-[800] text-2xl cursor-pointer hover:underline underline-offset-8 decoration-purple-500">About</NuxtLink>
                 <NuxtLink to="/projects" class="text-zinc-950 font-[800] text-2xl cursor-pointer hover:underline underline-offset-8 decoration-purple-500">Projects</NuxtLink>
-                <a class="text-zinc-950 font-[800] text-2xl hover:underline underline-offset-8 decoration-amber-500">Tool Box</a>
+                <NuxtLink to="/tools" class="text-zinc-950 font-[800] text-2xl hover:underline underline-offset-8 decoration-amber-500">Tool Box</NuxtLink>
               </nav>
             </header>
 
