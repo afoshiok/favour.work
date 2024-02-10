@@ -19,7 +19,7 @@
               </nav>
             </header>
 
-            <section class="grow overflow overflow-y">
+            <section class="grow overflow overflow-y text-black">
                 <slot />
             </section>
 
