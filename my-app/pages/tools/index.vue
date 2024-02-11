@@ -1,14 +1,64 @@
 <template>
     <section class="flex h-full items-center justify-center">
-        <div class="grid grid-rows-8 grid-cols-4 w-3/4 px-8">
+        <div class="grid grid-rows-8 grid-cols-4 gap-4 w-3/4 h-2/3 px-8">
             <!-- Languages -->
-            <div class="row-span-3 col-span-2">
-                <h1 class="font-bold text-xl">Languages</h1>
-                <div class="mt-2 flex flex-row">
-                    <Python  class="w-12 h-12 mx-2"/>
-                    <Typescript class="w-12 h-12 mx-2"/>
-                    <Hypertext class="w-12 h-12 mx-2" />
-                    <SqlIcon class="w-12 h-12 mx-2" />
+            <div
+            v-motion
+            :initial="{ opacity:0, x:-100 }"
+            :enter="{ opacity: 1, x: 0, scale: 1 }"
+            :delay="300"
+             class=" h-full w-full row-start-1 row-span-3 col-span-1 bg-orange-200 p-4 rounded-xl">
+                <h1 class="font-bold text-2xl">Languages</h1>
+                <div class="mt-2 flex flex-row flex-wrap">
+                    <div class="tooltip tooltip-bottom" data-tip="Python">
+                        <Python  class="w-20 h-20 p-4"/>
+                    </div>
+                    <div class="tooltip tooltip-bottom" data-tip="TypeScript">
+                        <Typescript class="w-20 h-20 p-4"/>
+                    </div>
+                    <div class="tooltip tooltip-bottom" data-tip="HTML">
+                        <Hypertext class="w-20 h-20 p-4" />
+                    </div>
+                    <div class="tooltip tooltip-bottom" data-tip="SQL">
+                        <SqlIcon class="w-20 h-20 p-4" />
+                    </div>
+                    <div class="tooltip tooltip-bottom" data-tip="JavaScript">
+                        <Javascript class="w-20 h-20 p-4"/>
+                    </div>
+                </div>
+            </div>
+            <div
+            v-motion
+            :initial="{ opacity:0, x:100 }"
+            :enter="{ opacity: 1, x: 0, scale: 1 }"
+            :delay="400"
+             class=" h-full w-full row-start-1 col-start-2 col-span-3 row-span-3 bg-red-200 rounded-xl p-4">
+                <h1 class="font-bold text-2xl">Data Warehouses and Databases</h1>
+                <div class="flex items-center justify-center">
+                    <div class="mt-2 flex flex-row flex-wrap">
+                        <div class="tooltip tooltip-bottom" data-tip="Snowflake">
+                            <SnowflakeIcon class="w-24 h-24 p-4" />
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="MySql">
+                            <Mysql class="w-24 h-24 p-4" />
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="DynamoDB">
+                            <Dynamodb class="w-24 h-24 p-4" />
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="Postgres">
+                            <Postgres class="w-24 h-24 p-4"/>
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="Microsoft SQL Server">
+                            <SqlServer class="w-24 h-24 p-4"/>
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="Databricks">
+                            <DatabricksIcon class="w-24 h-24 p-4"/>
+                        </div>
+                        <div class="tooltip tooltip-bottom" data-tip="Oracle">
+                            <Oracle class="w-24 h-24 p-4"/>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>

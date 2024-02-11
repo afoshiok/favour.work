@@ -35,7 +35,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const jobs: string[] = ["Data Engineer", "Data Analyst", "Analytics Engineer", "Full Stack SDE", "Cinephile", "Playlist Connoisseur", "[Still clicking, I see? 👀]"]
+const jobs: string[] = ["Data Engineer", "Data Analyst", "Analytics Engineer", "Full Stack SDE", "Python Power User", "Cinephile", "Playlist Connoisseur", "[Still clicking, I see? 👀]"]
 const currentIndex = reactive({index: 0})
 const current_job: Ref<string> = ref(jobs[currentIndex.index])
 
