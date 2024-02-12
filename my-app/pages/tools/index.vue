@@ -1,6 +1,6 @@
 <template>
     <section class="flex h-full items-center justify-center">
-        <div class="grid grid-rows-8 grid-cols-4 gap-4 w-3/4 h-2/3 px-8 container my-auto">
+        <div class="grid grid-rows-8 grid-cols-4 gap-3 w-3/4 h-5/6 px-8 container my-auto">
             <!-- Languages -->
             <div
             v-motion
@@ -65,7 +65,7 @@
             :initial="{ opacity:0, x:-100 }"
             :enter="{ opacity: 1, x: 0, scale: 1 }"
             :delay="700"
-            class=" h-full w-full row-start-4 row-span-3 col-span-2 rounded-xl p-4 bg-green-200">
+            class=" h-full w-full row-start-4 row-span-2 col-span-2 rounded-xl p-4 bg-green-200">
                 <h1 class="font-bold text-2xl">Cloud Platforms</h1>
                 <div class="mt-2 flex flex-row justify-center">
                     <AwsIcon class="w-24 h-24 p-4"/>
@@ -86,10 +86,17 @@
                     <Jupyter class="w-24 h-24 p-4"/>
                     <Polars class="w-24 h-24 p-4"/>
                     <Pandas class="w-24 h-24 p-4"/>
+                    <Tableau class="w-24 h-24 p-4"/>
+                    <Powerbi class="w-24 h-24 p-4"/>
                 </div>
             </div>
-            <div class="h-full w-full row-start-7 col-span-2 p-4 bg-yellow-200 rounded-xl">
-                <h1>Tools</h1>
+            <div class="h-full w-full row-start-6 row-span-2 col-span-2  bg-yellow-200 rounded-xl p-4">
+                <h1 class="font-bold text-2xl">Misc. Tools</h1>
+                <div class="mt-2 flex flex-row flex-wrap justify-center">
+                    <Flask class="w-24 h-24 p-4"/>
+                    <Fastapi class="w-24 h-24 p-4"/>
+                    <GithubIcon class="w-24 h-24 p-4"/>
+                </div>
             </div>
         </div>
     </section>
