@@ -1,13 +1,14 @@
 <template>
-    <section class="flex h-full items-center justify-center">
-        <div class="grid grid-rows-8 grid-cols-4 gap-3 w-3/4 h-5/6 px-8 container my-auto">
+    <section class="flex flex-col my-18 items-center justify-center">
+        <h1 class="my-8 font-bold text-2xl text-red-500">/ Tools</h1>
+        <div class="grid grid-rows-8 grid-cols-4 gap-3 w-3/4 h-5/6 max-sm:grid-rows-none max-sm:grid-cols-none max-sm:flex max-sm:flex-col px-8 max-sm:p-1 container my-auto">
             <!-- Languages -->
             <div
             v-motion
             :initial="{ opacity:0, x:-100 }"
             :enter="{ opacity: 1, x: 0, scale: 1 }"
             :delay="300"
-             class=" h-full w-full row-start-1 col-start-1 row-span-3 col-span-1 bg-orange-200 p-4 rounded-xl max-sm:overflow-y-scroll max-sm:scrollbar-hide">
+             class=" h-full w-full row-start-1 col-start-1 row-span-3 col-span-1 bg-orange-200 p-4 rounded-xl ">
                 <h1 class="font-bold text-2xl">Languages</h1>
                 <div class="mt-2 flex flex-row flex-wrap">
                     <div class="tooltip tooltip-bottom" data-tip="Python">
