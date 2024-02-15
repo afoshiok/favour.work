@@ -15,7 +15,7 @@
               <div class="dropdown dropdown-bottom">
                 <div tabindex="0" role="button" class="max-sm:btn sm:hidden max-sm:mb-0 max-sm:bg-green-300 max-sm:text-black">Menu</div>
                 <nav tabindex="0" class="grid grid-cols-4 gap-3 max-sm:dropdown-content max-sm:z-[1] max-sm:menu max-sm:grid-cols-none max-sm:rounded-box max-sm:w-52">
-                  <NuxtLink to="/" class=""><HomeIcon class="w-10 h-10 max-sm:w-5 max-sm:h-5 fill-red-500 p-[2px] max-sm:p-0" /></NuxtLink>
+                  <NuxtLink to="/" class=""><HomeIcon class="w-9 h-9 max-sm:w-5 max-sm:h-5 fill-red-500 p-[2px] max-sm:p-0" /></NuxtLink>
                   <NuxtLink to="/about" class="text-zinc-950 font-[800] text-2xl max-sm:text-sm cursor-pointer hover:underline underline-offset-8 decoration-purple-500">About</NuxtLink>
                   <NuxtLink to="/projects" class="text-zinc-950 font-[800] text-2xl max-sm:text-sm cursor-pointer hover:underline underline-offset-8 decoration-purple-500">Projects</NuxtLink>
                   <NuxtLink to="/tools" class="text-zinc-950 font-[800] text-2xl max-sm:text-sm hover:underline underline-offset-8 decoration-amber-500">Tool Box</NuxtLink>
@@ -40,7 +40,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const jobs: string[] = ["Data Engineer", "Data Analyst", "Analytics Engineer", "Full Stack Web Dev", "Python Power User", "Cinephile", "Playlist Connoisseur", "[Still clicking, I see? 👀]"]
+const jobs: string[] = ["Data Engineer", "Data Analyst", "Analytics Engineer", "Full Stack Web Dev", "Python Power User", "Cinephile", "Playlist Connoisseur"]
 const currentIndex = reactive({index: 0})
 const current_job: Ref<string> = ref(jobs[currentIndex.index])
 
