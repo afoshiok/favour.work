@@ -1,6 +1,6 @@
 <template>
     <section class="flex flex-col my-18 items-center justify-center">
-        <h1 class="my-8 font-bold text-2xl text-red-500">/ Tools</h1>
+        <h1 class="my-8 font-black text-2xl text-red-500">/ Tools</h1>
         <div class="grid grid-rows-8 grid-cols-4 gap-3 w-3/4 h-5/6 max-sm:grid-rows-none max-sm:grid-cols-none max-sm:flex max-sm:flex-col px-8 max-sm:p-1 container my-auto">
             <!-- Languages -->
             <div

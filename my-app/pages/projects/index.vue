@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col h-full items-center justify-center">
-        <h1 class="my-8 font-bold text-2xl text-red-500">/ Projects</h1>
+        <h1 class="my-8 font-black text-2xl text-red-500">/ Projects</h1>
         <div class="grid grid-cols-3 w-3/4 max-sm:grid-rows max-sm:grid-cols-none gap-4">
             <div
             v-motion

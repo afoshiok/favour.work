@@ -1,8 +1,7 @@
 <template>
     <section class="h-full px-8 max-sm:px-2 mt-4 max-sm:my-8">
         <div class="flex flex-col h-full items-center justify-center">
-            <!-- <p class="font-black text-lg mx-auto">I'm a <a class="text-purple-700 cursor-pointer" @click="cycleIndex">{{ current_job }}</a> who loves making cool things with data. When I'm not building pipelines and writing SQL queries, I'm watching lots of movies and discovering new songs.</p> -->
-            <h1 class="my-8 font-bold text-2xl text-red-500">/About</h1>
+            <h1 class="my-8 font-black text-2xl text-red-500">/About</h1>
             <!-- Non-"About Me" Section -->
             <div class="grid grid-cols-2 grid-rows-2 max-sm:grid-rows-4 max-sm:grid-cols-none gap-4 w-3/4 max-sm:w-full px-8 max-sm:px-2">
               <div
