@@ -1,3 +1,7 @@
 <template>
-    <h1 class="text-bold">Hi!</h1>
+    <div class="h-4/5 flex items-center justify-center">
+        <div class="w-2/3 h-4/5 bg-white">
+
+        </div>
+    </div>
 </template>
