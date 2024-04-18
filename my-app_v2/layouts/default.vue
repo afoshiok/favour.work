@@ -13,7 +13,7 @@
                 </div>
             </nav>
         </section>
-        <section class="grow max-w-7xl mx-auto">
+        <section class="grow max-w-7xl mx-auto max-h-full">
             <slot />
         </section>
         <footer class="flex max-w-7xl mx-auto">
