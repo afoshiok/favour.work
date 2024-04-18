@@ -24,7 +24,7 @@ import Project1 from '../../components/project1.vue';
             <div class="w-96 h-96 rounded-xl bg-zinc-600 hover:bg-zinc-700 p-4">
                 <h1 class="text-stone-200 font-semibold">Money + Elections</h1>
                 <div class="w-6/7 h-3/5 rounded-xl bg-zinc-500 mt-2 flex items-center justify-center">
-
+                    <Election class="w-4/5 h-4/5" />
                 </div>
                 <div class="mt-2">
                     <span class="bg-indigo-100 text-indigo-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Airflow</span>
@@ -48,7 +48,8 @@ import Project1 from '../../components/project1.vue';
             <div class="w-96 h-96 rounded-xl bg-zinc-600 hover:bg-zinc-700 p-4">
                 <h1 class="text-stone-200 font-semibold">Lloyd <span class="text-yellow-200">(WIP)</span></h1>
                 <div class="w-6/7 h-3/5 rounded-xl bg-zinc-500 mt-2 flex items-center justify-center">
-
+                    <h1 class="text-7xl">👷</h1>
+                    <h1 class="text-stone-200">Still working on this...</h1>
                 </div>
                 <div class="mt-2">
                     <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LangChain</span>
