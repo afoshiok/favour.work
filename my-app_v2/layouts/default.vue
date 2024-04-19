@@ -3,7 +3,7 @@
         <section class="w-full mb-2 max-w-7xl mx-auto">
             <nav class="flex flex-row justify-between align-baseline h-12">
                 <div class="p-2 flex flex-col">
-                    <h1 class="text-indigo-400 font-semibold text-2xl">Favour Oshiokhale</h1>
+                    <h1 class="text-indigo-300 font-semibold text-2xl">Favour Oshiokhale</h1>
                     <p class="text-stone-200 font-semibold">Currently: Open to work (Data Engineer, Analytics Engineer, Data Analyst)</p>
                 </div>
                 <div class="flex flex-row gap-4 text-white font-semibold">
