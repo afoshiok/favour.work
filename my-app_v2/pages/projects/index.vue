@@ -21,7 +21,7 @@ import Project1 from '../../components/project1.vue';
                     <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">ELT/ETL</span>
                 </div>
             </a>
-            <div class="w-96 h-96 rounded-xl bg-zinc-600 hover:bg-zinc-700 p-4">
+            <a href="https://github.com/afoshiok/Money-and-Elections" target="_blank" class="w-96 h-96 rounded-xl bg-zinc-600 hover:bg-zinc-700 p-4">
                 <h1 class="text-stone-200 font-semibold">Money + Elections</h1>
                 <div class="w-6/7 h-3/5 rounded-xl bg-zinc-500 mt-2 flex items-center justify-center">
                     <Election class="w-4/5 h-4/5" />
@@ -44,7 +44,7 @@ import Project1 from '../../components/project1.vue';
                     <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">SQL</span>
                 </div>
                 
-            </div>
+            </a>
             <div class="w-96 h-96 rounded-xl bg-zinc-600 hover:bg-zinc-700 p-4">
                 <h1 class="text-stone-200 font-semibold">Lloyd <span class="text-yellow-200">(WIP)</span></h1>
                 <div class="w-6/7 h-3/5 rounded-xl bg-zinc-500 mt-2 flex items-center justify-center">
@@ -55,6 +55,7 @@ import Project1 from '../../components/project1.vue';
                     <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LangChain</span>
                     <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">ELT/ETL</span>
                     <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">SQL</span>
+                    <span class="bg-orange-100 text-orange-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Chatbot</span>
                 </div>
             </div>
         </section>
