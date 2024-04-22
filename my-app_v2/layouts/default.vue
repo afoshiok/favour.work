@@ -1,6 +1,6 @@
 <template>
     <title>Favour Oshiokhale</title>
-    <main class="flex justify-between flex-col w-svw h-svh p-8 bg-zinc-800 overflow-hidden">
+    <main class="flex justify-between flex-col w-screen h-screen p-8 bg-zinc-800 overflow-hidden">
         <section class="w-full mb-2 max-w-7xl mx-auto max-sm:w-screen">
             <nav class="flex flex-row justify-between align-baseline h-12">
                 <div class="p-2 flex flex-col">
