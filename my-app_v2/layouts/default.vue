@@ -1,11 +1,11 @@
 <template>
     <title>Favour Oshiokhale</title>
-    <main class="flex justify-between flex-col w-screen h-screen p-8 bg-zinc-800 overflow-hidden">
+    <main class="flex justify-between flex-col w-screen h-screen p-8 bg-zinc-800 overflow-hidden max-sm:my-auto">
         <section class="w-full mb-2 max-w-7xl mx-auto max-sm:w-screen">
             <nav class="flex flex-row justify-between align-baseline h-12">
-                <div class="p-2 flex flex-col">
+                <div class="p-2 flex flex-col max-sm:mr-10">
                     <NuxtLink to="/" class="text-indigo-300 font-semibold text-2xl">Favour Oshiokhale</NuxtLink>
-                    <p class="text-stone-200 font-semibold">Currently: Open to work (Data Engineer, Analytics Engineer, Data Analyst)</p>
+                    <p class="text-stone-200 font-semibold max-w-sm:text-sm">Currently: Open to work (Data Engineer, Analytics Engineer, Data Analyst)</p>
                 </div>
                 <div class="flex flex-row gap-4 text-white font-semibold max-sm:hidden">
                     <NuxtLink to="/resume" class="text-stone-200 p-2 flex items-center">Resume</NuxtLink>
