@@ -1,6 +1,6 @@
 
 <template>
-    <div class="h-full mt-4 max-sm:mt-10 flex flex-col">
+    <div class="mt-4 max-sm:mt-10 flex flex-col">
         <section class="sm:flex sm:justify-center">
             <h1 class="text-stone-200 font-bold text-2xl p-2">Projects</h1>
         </section>
