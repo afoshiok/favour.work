@@ -46,19 +46,6 @@
                     <span class="bg-orange-100 text-orange-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">AWS</span>
                 </div>
             </a>
-            <a href="https://github.com/afoshiok/Lloydbot" target="_blank" class="w-96 h-[28rem] rounded-xl bg-zinc-600 hover:border hover:border-indigo-300 p-4">
-                <h1 class="text-stone-200 font-semibold">Lloyd<span class="text-yellow-200">(WIP)</span></h1>
-                <div class="w-6/7 h-3/5 rounded-xl bg-zinc-500 mt-2 flex items-center justify-center">
-                    <h1 class="text-7xl">👷</h1>
-                    <h1 class="text-stone-200">Still working on this...</h1>
-                </div>
-                <div class="mt-2">
-                    <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LangChain</span>
-                    <span class="bg-lime-100 text-lime-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">ELT/ETL</span>
-                    <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">SQL</span>
-                    <span class="bg-orange-100 text-orange-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Chatbot</span>
-                </div>
-            </a>
             <div class="sm:hidden p-4">
             </div>
         </section>
