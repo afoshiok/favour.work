@@ -20,7 +20,7 @@
         </section>
         <footer class="flex flex-col max-w-7xl mx-auto">
             <div class="flex flex-row gap-4 text-white font-semibold sm:hidden">
-                    <NuxtLink to="/resume" class="text-stone-200 p-2 flex items-center">Resume</NuxtLink>
+                    <NuxtLink to="/resume.pdf" class="text-stone-200 p-2 flex items-center">Resume</NuxtLink>
                     <NuxtLink to="/projects" class="text-stone-200 p-2 flex items-center">Projects</NuxtLink>
                     <a class="text-stone-200 p-2 flex items-center" href="https://www.linkedin.com/in/favour-oshio/" target="_blank">LinkedIn</a>
                     <a class="bg-indigo-400 text-stone-200 rounded-md px-4 py-2 flex items-center" href="mailto:afoshiokhale@gmail.com">Contact</a>
